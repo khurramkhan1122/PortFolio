@@ -1,0 +1,157 @@
+
+body{
+    background-image: url("./image/bg.jpg");
+}
+h2{
+    text-shadow: 2px 3px 10px blue;
+}
+th{
+        text-shadow: 2px 3px 10px blue;;
+
+}
+h3{
+    text-shadow: 2px 3px 10px blue;
+    font-size: 1.5em;
+    display: inline;
+   
+}
+h4{
+    text-shadow: 2px 3px 10px black;
+    font-size: 1.4em;
+    display: inline;
+}
+.info{
+    text-shadow: 2px 3px 10px blue;
+    max-width: 400px;
+    /* padding: 0px 10px 0px 3px ;  */
+    display: inline;
+    /* margin: 2px 3px auto; */
+    /* text-align: center; */
+    /* border-radius: 40px 20px; */
+    /* text-overflow:  20px; */
+     /* margin-bottom: 2px; */
+    /* border: 2px solid blue; */
+}
+
+marquee{
+    color: white;
+    text-shadow: 12px 20px 52px;
+}
+#size{
+    max-width: 80%;
+    text-align: center;
+    margin-left: 100px;
+    background-image: url("./image/bgfrt.jpg");
+    background-color: #cccccc;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    
+    
+}
+
+li h1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: 22px 22px 22px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#search {
+    border-radius: 1px;
+    padding: 0.5em 1em;
+    margin: 1em 0.5em;
+    float: right;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#FLT{
+    float:  left;
+    margin-top: 50px;
+}
+
+#skilll{
+font-size: 2em;
+float: left;
+float: none
+}
+.myskill{
+text-align: center;
+
+    
+}
+
+#khrm{
+     width: 300px;
+     height: 350px;
+     border-radius: 130px 10px;
+     
+}
+
+#abt{
+    text-align: center;
+    clear: none;
+    
+}
+
+
+#dat{
+    clear: none;
+}
+
+
+#ft{
+    color: white;
+    text-align: center;
+   
+}
+
+
+#one, #two, #three {
+     width: 413px;
+     border: 2px solid blue;
+    height: 400px;
+    /* margin: 2px 2px 2px 3px; */
+    }
+    #one{
+        float: left;
+        margin-top: 0px;
+    }
+    #two{
+        margin-top: -403px;
+        margin-left: 410px;
+        /* float: left; */
+    }
+    #three{
+        margin-top: -403px;
+        margin-left: 600px;
+        float: right;
+    }
+footer{
+    clear: both;
+}
+/* #one, #two ,#three { float: none; }
+
+#three { float: inherit; clear: none; } */
+
